@@ -18,21 +18,18 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
+  box-sizing: border-box;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  background-color: #ddd;
 }
 
 button {
@@ -46,9 +43,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -59,10 +58,102 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 1110px;
+  background-color: #40407a;
+  color: #ffffff;
+  height: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -1px 15px 34px 0px rgba(0, 0, 0, 0.75);
+}
+
+header {
+  background-color: #213547;
+  padding: 30px 30px 0px 30px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  border-radius: 0.5rem;
+  background-color: #3d3d3d;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgb(255, 255, 255);
+  transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked+.name {
+  background-color: #ffffff;
+  color: #2d3436;
+  font-weight: 1000;
+}
+
+h2 {
+  margin: 0;
+}
+
+.content { 
+  padding: 60px;
+  line-height: 3rem;
+  text-align: justify;
+}
+
+.content h2 {
+  font-style:italic;
+  color: #ebc932;
+}
+
+
+.content p {
+  font-weight: bold;
+}
+
+.article { 
+  display: flex;
+  align-items: center;
+}
+
+.article img {
+  width: 300px;
+  height:300px;
 }

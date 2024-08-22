@@ -101,6 +101,7 @@ header h1 {
   font-weight: bold;
 }
 
+
 .radio-inputs .radio {
   flex: 1 1 auto;
   text-align: center;
@@ -119,7 +120,7 @@ header h1 {
   border: none;
   padding: .5rem 0;
   color: rgb(255, 255, 255);
-  transition: all .15s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .radio-inputs .radio input:checked+.name {
@@ -132,14 +133,14 @@ h2 {
   margin: 0;
 }
 
-.content { 
+.content {
   padding: 60px;
   line-height: 3rem;
   text-align: justify;
 }
 
 .content h2 {
-  font-style:italic;
+  font-style: italic;
   color: #ebc932;
 }
 
@@ -148,12 +149,13 @@ h2 {
   font-weight: bold;
 }
 
-.article { 
+.article {
   display: flex;
-  align-items: center;
+  align-items: sta;
 }
 
 .article img {
-  width: 300px;
-  height:300px;
+  margin-left: 40px;
+  width: 250px;
+  height: 250px;
 }

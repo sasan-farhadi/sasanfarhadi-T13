@@ -5,10 +5,10 @@ import Tab3 from "./Tab3"
 import Tab4 from "./Tab4"
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState('tab1')
-  localStorage.setItem('active', activeTab)
   let [localstorageData, setLocalStorageData] = useState()
 
+  const [activeTab, setActiveTab] = useState('tab1')
+  localStorage.setItem('active', activeTab)
   const inputHandler = (event) => {
     setLocalStorageData(localStorage.getItem("active"))
     setActiveTab(event.target.id)
@@ -24,7 +24,6 @@ const App = () => {
         return <Tab3></Tab3>
       case 'Tab4':
         return <Tab4></Tab4>
-
         break;
       default:
         break;
@@ -35,10 +34,11 @@ const App = () => {
       <div className="container">
         <header>
           <h1>Sasan Farhadi | Tabs Components With React</h1>
+
           <div className="radio-inputs" onChange={inputHandler}>
             <label className="radio">
-              <input type="radio" name="radio" id="Tab1" defaultChecked />
-              <span className="name">JavaScript</span>
+              <input type="radio" name="radio" id="Tab1" />
+              <span className="name"> JavaScript </span>
             </label>
             <label className="radio">
               <input type="radio" name="radio" id="Tab2" />

@@ -12,8 +12,8 @@ const Tab3 = () => {
                             The copyright and trademarks for Next.js are owned by Vercel, which also maintains and leads its open-source development.
                         </p>
                         <img src="/nextjs.webp" alt="" />
-
                     </div>
+                    <a href="https://en.wikipedia.org/wiki/Next.js" target="_blank">Read More ... </a>
                 </div>
             </div>
         </>

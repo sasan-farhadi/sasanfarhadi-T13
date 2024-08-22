@@ -12,6 +12,7 @@ const Tab1 = () => {
                         </p>
                         <img src="/js.png" alt="" />
                     </div>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Read More ... </a>
                 </div>
             </div>
         </>

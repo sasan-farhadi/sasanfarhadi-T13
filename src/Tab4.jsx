@@ -11,6 +11,7 @@ const Tab4 = () => {
                         </p>
                         <img src="/github.svg" alt="" />
                     </div>
+                    <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">Read More ... </a>
                 </div>
             </div>
         </>

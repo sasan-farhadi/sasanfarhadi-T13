@@ -10,6 +10,7 @@ const Tab1 = () => {
 React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality.<br></br> A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements. It was first launched on 29 May 2013.</p>
                         <img src="/reactjs.png" alt="" />
                     </div>
+                    <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank">Read More ... </a>
                 </div>
             </div>
         </>

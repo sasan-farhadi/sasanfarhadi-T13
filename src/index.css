@@ -15,8 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #1a1a1a;
   text-decoration: inherit;
+  background-color: #ebc932;
+  padding: 8px 25px;
+  border-radius: 10px;
 }
 
 a:hover {
@@ -60,7 +63,7 @@ button:focus-visible {
   }
 
   a:hover {
-    color: #747bff;
+    color: #363ed5;
   }
 
   button {
@@ -151,11 +154,20 @@ h2 {
 
 .article {
   display: flex;
-  align-items: sta;
+  align-items: start;
 }
 
 .article img {
   margin-left: 40px;
   width: 250px;
   height: 250px;
+}
+
+.content a {
+  margin-left: 800px;
+}
+
+.content a:hover {
+  color: #1a1a1a;
+  opacity: .9;
 }
